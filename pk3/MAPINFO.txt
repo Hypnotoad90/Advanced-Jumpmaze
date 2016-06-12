@@ -1,0 +1,49 @@
+map ADV04 "Tough Day" {
+  music = "D_TDAY"
+  sky1 = "stsky9", 0
+  intermusic = "D_INTER"
+  exitpic = "adv04"
+  next = "ADV05"
+}
+
+map ADV02 "Hades Vendetta" {
+  music = "D_HVTT"
+  sky1 = "stsky1", 0
+  intermusic = "D_INTER"
+  exitpic = "adv02"
+  next = "ADV03"
+}
+
+map FLLV2 "Industrial Rage" {
+  music = "D_LELZ"
+  sky1 = "SKY1", 0
+  intermusic = "D_INTER"
+  exitpic = "adv06"
+  next = "ADV01"
+}
+
+map ADV03 "Momentum" {
+  music = "D_FRANK"
+  sky1 = "SKY1", 0
+  intermusic = "D_INTER"
+  exitpic = "adv03"
+  next = "ADV04"
+}
+
+map ADV01 "Pressure Point" {
+  music = "D_PPOINT"
+  sky1 = "stsky7", 0
+  intermusic = "D_INTER"
+  exitpic = "adv01"
+  next = "ADV02"
+  
+}  
+
+map ADV05 "Castle, skins and hell!" {
+	sky1  = "STSKY5", 1
+	sky2  = "STSKY5", 1
+	music = "D_PROL"
+	intermusic = "D_INTER"
+	exitpic = "adv05"
+	next  = "FLLV2"
+}

@@ -1,47 +1,21 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Application-generated backup files
+*.bak
+*.dbs
+*.bak
+*.backup1
+*.backup2
+*.backup3
 
-# Folder config file
-Desktop.ini
+# Compiled PK3s
+*.pk3
+build/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# 7-Zip tempory files
+*.tmp
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Compiled ACS
+*.o
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Auto-generated files
+utilities/zz_autogen_commit.bat
+utilities/zz_autogen_version.bat
