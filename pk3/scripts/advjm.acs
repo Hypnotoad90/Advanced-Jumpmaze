@@ -1,0 +1,17 @@
+#library "advjm"
+
+#include "zcommon.acs"
+
+#import "core/jmgame.acs"
+#import "core/constants.acs"
+#import "core/map_skill.acs"
+#import "core/map_message.acs"
+
+function void JmGameAdvMapMessage( str author, str difficulty, str difficultyColor )
+{
+	JmGameSetMapMessage( author, MAP_SKILL_UNSET );
+	_mm_skill = difficulty;
+	_mm_skillcolor = difficultyColor;
+	_mm_skillretro = difficulty;
+	_mm_skilldisable = false;
+}

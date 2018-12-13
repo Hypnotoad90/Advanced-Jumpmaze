@@ -1,0 +1,3 @@
+[submodule "dependencies/jumpmaze-zan"]
+	path = dependencies/jumpmaze-zan
+	url = https://github.com/Hypnotoad90/jumpmaze-zan.git

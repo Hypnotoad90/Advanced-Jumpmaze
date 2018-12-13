@@ -8,13 +8,16 @@
 
 # Compiled PK3s
 *.pk3
-build/
+debug/
 
 # 7-Zip tempory files
 *.tmp
 
 # Compiled ACS
 *.o
+
+# Scripts from jm_core
+pk3/scripts/core/
 
 # Auto-generated files
 utilities/zz_autogen_commit.bat
