@@ -1,9 +1,9 @@
-map ADV04 "Tough Day" {
-  music = "D_TDAY"
-  sky1 = "stsky9", 0
+map ADV01 "Pressure Point" {
+  music = "D_PPOINT"
+  sky1 = "stsky7", 0
   intermusic = "D_INTER"
-  exitpic = "adv04"
-  next = "ADV05"
+  exitpic = "adv01"
+  next = "ADV02"
 }
 
 map ADV02 "Hades Vendetta" {
@@ -14,14 +14,6 @@ map ADV02 "Hades Vendetta" {
   next = "ADV03"
 }
 
-map FLLV2 "Industrial Rage" {
-  music = "D_LELZ"
-  sky1 = "SKY1", 0
-  intermusic = "D_INTER"
-  exitpic = "adv06"
-  next = "ADV01"
-}
-
 map ADV03 "Momentum" {
   music = "D_FRANK"
   sky1 = "SKY1", 0
@@ -30,20 +22,43 @@ map ADV03 "Momentum" {
   next = "ADV04"
 }
 
-map ADV01 "Pressure Point" {
-  music = "D_PPOINT"
-  sky1 = "stsky7", 0
+map ADV04 "Tough Day" {
+  music = "D_TDAY"
+  sky1 = "stsky9", 0
   intermusic = "D_INTER"
-  exitpic = "adv01"
-  next = "ADV02"
-  
-}  
+  exitpic = "adv04"
+  next = "ADV05"
+}
 
 map ADV05 "Castle, skins and hell!" {
-	sky1  = "STSKY5", 1
-	sky2  = "STSKY5", 1
-	music = "D_PROL"
-	intermusic = "D_INTER"
-	exitpic = "adv05"
-	next  = "FLLV2"
+  sky1 = "STSKY5", 1
+  sky2 = "STSKY5", 1
+  music = "D_PROL"
+  intermusic = "D_INTER"
+  exitpic = "adv05"
+  next  = "ADV06"
+}
+
+map ADV06 "Magnetic Flux"
+{
+  sky1 = "STSKY8"
+  music = "D_MAGNET"
+  intermusic = "D_INTER"
+  next = "ADV99"
+}
+
+map ADV99 "Limites" {
+  music = "D_ADV99"
+  sky1 = "stsky1", 0
+  sky2 = "stsky9", 0
+  intermusic = "D_INTER"
+  next = "FLLV2"
+}
+
+map FLLV2 "Industrial Rage" {
+  music = "D_LELZ"
+  sky1 = "SKY1", 0
+  intermusic = "D_INTER"
+  exitpic = "adv06"
+  next = "ADV01"
 }
