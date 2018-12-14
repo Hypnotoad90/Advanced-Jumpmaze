@@ -44,10 +44,10 @@ map ADV06 "Magnetic Flux"
   sky1 = "STSKY8"
   music = "D_MAGNET"
   intermusic = "D_INTER"
-  next = "ADV99"
+  next = "ADV07"
 }
 
-map ADV99 "Limites" {
+map ADV07 "Limites" {
   music = "D_ADV99"
   sky1 = "stsky1", 0
   sky2 = "stsky9", 0
