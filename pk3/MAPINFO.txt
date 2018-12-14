@@ -44,6 +44,7 @@ map ADV06 "Magnetic Flux"
   sky1 = "STSKY8"
   music = "D_MAGNET"
   intermusic = "D_INTER"
+  exitpic = "adv06"
   next = "ADV07"
 }
 
@@ -52,6 +53,7 @@ map ADV07 "Limites" {
   sky1 = "stsky1", 0
   sky2 = "stsky9", 0
   intermusic = "D_INTER"
+  exitpic = "adv07"
   next = "FLLV2"
 }
 
@@ -59,6 +61,5 @@ map FLLV2 "Industrial Rage" {
   music = "D_LELZ"
   sky1 = "SKY1", 0
   intermusic = "D_INTER"
-  exitpic = "adv06"
   next = "ADV01"
 }
