@@ -61,5 +61,6 @@ map FLLV2 "Industrial Rage" {
   music = "D_LELZ"
   sky1 = "SKY1", 0
   intermusic = "D_INTER"
+  exitpic = "fllv2"
   next = "ADV01"
 }
