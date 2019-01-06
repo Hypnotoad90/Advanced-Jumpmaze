@@ -1,3 +1,7 @@
+defaultmap {
+  nocrouch
+}
+
 map ADV01 "Pressure Point" {
   music = "D_PPOINT"
   sky1 = "stsky7", 0
