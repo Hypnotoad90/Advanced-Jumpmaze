@@ -58,6 +58,14 @@ map ADV07 "Limites" {
   sky2 = "stsky9", 0
   intermusic = "D_INTER"
   exitpic = "adv07"
+  next = "ADV08"
+}
+
+map ADV08 "Inner Peace" {
+  music = "D_IP"
+  sky1 = "stsky8", 0
+  intermusic = "D_INTER"
+  exitpic = "adv08"
   next = "FLLV2"
 }
 
