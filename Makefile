@@ -19,12 +19,14 @@ $(acsDir)/advjm.o: $(sourceDir)/advjm.acs | $(acsDir) $(coreSourceDir)
 	$(ACC) $< $@
 
 # PK3 files
+advjmContents = $(shell $(FIND) pk3 $(FINDFLAGS) -newer $(targetDir)/advancedJM-$(targetSuffix).pk3 2>/dev/null)
+
 pk3Files := \
 	$(targetDir)/advancedJM-$(targetSuffix).pk3
 
 $(targetDir):
 	@$(MKDIR) $(MKDIRFLAGS) $@
-$(targetDir)/advancedJM-$(targetSuffix).pk3: pk3 $(acsFiles) | $(targetDir)
+$(targetDir)/advancedJM-$(targetSuffix).pk3: pk3 $(advjmContents) $(acsFiles) | $(targetDir)
 	@$(DEL) $(DELFLAGS) $@
 	$(SEVENZA) $(SEVENZAFLAGS) $@ ./$</*
 
