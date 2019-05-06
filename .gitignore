@@ -9,6 +9,8 @@
 # Compiled PK3s
 *.pk3
 debug/
+release_beta/
+release/
 
 # 7-Zip tempory files
 *.tmp
@@ -18,7 +20,3 @@ debug/
 
 # Scripts from jm_core
 pk3/scripts/core/
-
-# Auto-generated files
-utilities/zz_autogen_commit.bat
-utilities/zz_autogen_version.bat
