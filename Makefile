@@ -12,7 +12,11 @@ acsFiles := \
 	$(acsDir)/advjm.o
 
 $(coreSourceDir):
-	@cmd //C mklink //J $(subst /,\,$(coreSourceDir)) dependencies\jumpmaze-zan\jm_core\pk3\scripts
+	if [ "$(hostOS)" = "windows" ]; then \
+		cmd //C mklink //J $(subst /,\,$(coreSourceDir)) dependencies\jumpmaze-zan\jm_core\pk3\scripts; \
+	else \
+		ln -s $(abspath dependencies/jumpmaze-zan/jm_core/pk3/scripts) $(abspath $(coreSourceDir));  \
+	fi 
 $(acsDir):
 	@$(MKDIR) $(MKDIRFLAGS) $@
 $(acsDir)/advjm.o: $(sourceDir)/advjm.acs | $(acsDir) $(coreSourceDir)
