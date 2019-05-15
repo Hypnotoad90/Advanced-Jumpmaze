@@ -15,7 +15,7 @@ $(coreSourceDir):
 	if [ "$(hostOS)" = "windows" ]; then \
 		cmd //C mklink //J $(subst /,\\,$(coreSourceDir)) dependencies\\jumpmaze-zan\\jm_core\\pk3\\scripts; true; \
 	else \
-		ln -s $(abspath dependencies/jumpmaze-zan/jm_core/pk3/scripts) $(abspath $(coreSourceDir));  \
+		ln -s $(abspath dependencies/jumpmaze-zan/jm_core/pk3/scripts) $(abspath $(coreSourceDir)); true;  \
 	fi 
 $(acsDir):
 	@$(MKDIR) $(MKDIRFLAGS) $@
