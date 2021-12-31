@@ -66,6 +66,13 @@ map ADV08 "Inner Peace" {
   sky1 = "stsky8", 0
   intermusic = "D_INTER"
   exitpic = "adv08"
+  next = "ADV09"
+}
+
+map ADV09 "Malignance" {
+  sky1 = "STSKY8"
+  sky2 = "STSKY4"
+  music = "D_SIGN"
   next = "FLLV2"
 }
 

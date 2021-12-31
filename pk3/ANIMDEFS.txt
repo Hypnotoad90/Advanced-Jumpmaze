@@ -1,0 +1,7 @@
+cameratexture TCAMTEX1 1280 640 fit 96 54
+cameratexture TCAMTEX2 1280 640 fit 96 54
+cameratexture TCAMTEX3 1280 640 fit 96 54
+cameratexture TCAMTEX4 1280 640 fit 96 54
+cameratexture TCAMTEX5 1280 640 fit 96 54
+cameratexture TCAMTEX6 1280 640 fit 96 54
+cameratexture TCAMTEX7 1280 640 fit 96 54
