@@ -73,6 +73,7 @@ map ADV09 "Malignance" {
   sky1 = "STSKY8"
   sky2 = "STSKY4"
   music = "D_SIGN"
+  exitpic = "adv09"
   next = "FLLV2"
 }
 
