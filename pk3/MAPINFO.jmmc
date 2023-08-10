@@ -27,4 +27,12 @@ map JMMC04 "Longer, Harder... Life"
     music = "D_JMMC04"
     sky1 = "zcx_06"
     par = 600
+	next = "JMMC05"
+}
+
+map JMMC05 "Cool Cave"
+{
+	sky1= "STSKY2"
+	par = 600
+	music = "D_JMMC05"
 }
