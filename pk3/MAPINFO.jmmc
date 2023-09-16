@@ -36,3 +36,10 @@ map JMMC05 "Cool Cave"
 	par = 600
 	music = "D_JMMC05"
 }
+
+map JMMCSEC "Bernoulli Trials"
+{
+    music = "D_JMMCSC"
+    sky1 = "zcx_06"
+    par = 666
+}
