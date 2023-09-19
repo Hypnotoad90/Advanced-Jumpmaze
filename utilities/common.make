@@ -59,7 +59,7 @@ else
 endif
 
 ACCFLAGS=
-SEVENZAFLAGS=a -tzip -r -xr!*.dbs -xr!*.backup1 -xr!*.backup2 -xr!*.backup3 -xr!*.bak
+SEVENZAFLAGS=a -tzip -r -xr!*.dbs -xr!*.backup1 -xr!*.backup2 -xr!*.backup3 -xr!*.bak -xr!scripts/core
 DEL=rm
 DELFLAGS=-rf
 WHERE=which
