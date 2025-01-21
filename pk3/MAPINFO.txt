@@ -77,6 +77,13 @@ map ADV09 "Malignance" {
   next = "FLLV2"
 }
 
+map ADV10 "Unleash anger" {
+  intermusic = "D_INTER"
+  music = "D_ADV10"
+  exitpic = "G_ADV10"
+  next = "ADV01"
+}
+
 map FLLV2 "Industrial Rage" {
   music = "D_LELZ"
   sky1 = "SKY1", 0
