@@ -46,11 +46,10 @@ map JMMCSEC "Bernoulli Trials"
 
 map JMMCSEC2 "What is this kind of Jump ?" 
 {
-    music = "D_JMMCSC"
+    music = "D_JMMCS2"
     sky1 = "zcx_06"
     par = 666
 	AirControl = -1.0
-
 }
 
 map JMMCSEC3 "Patience... is a virtue" 
@@ -63,4 +62,5 @@ map JMMCSEC3 "Patience... is a virtue"
 map JMMCSEC4 "HOLY CRAB" 
 {
     par = 211
+	sky1 = "zcx_06"
 }
