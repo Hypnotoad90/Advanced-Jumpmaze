@@ -21,3 +21,6 @@ release/
 # Scripts from jm_core
 pk3/scripts/core/
 pk3/scripts/core
+
+# ACC errors
+acs.err
